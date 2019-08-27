@@ -39,6 +39,6 @@ def turn(board)
     move(board, index, current_player = "X")
   elsif
     false
-    puts "Please enter 1-9:"
+    turn(board) until true
   end
 end
