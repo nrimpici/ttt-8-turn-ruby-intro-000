@@ -37,7 +37,7 @@ def turn(board)
   if valid_move?(board, index)
     true
     move(board, index, current_player = "X")
-  elsif
+  else
     false
     turn(board) until true
   end
