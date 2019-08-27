@@ -38,7 +38,6 @@ def turn(board)
     true
     move(board, index, current_player = "X")
   else
-    false
-    turn(board) until true
+    turn(board)
   end
 end
